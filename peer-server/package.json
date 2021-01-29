@@ -1,19 +1,17 @@
 {
-  "name": "server",
+  "name": "peer-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "server peer to peer",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "npx nodemon index.js",
+    "dev": "set PORT=9000 npm start",
+    "start": "npx peerjs --port $PORT --key peerjs --path /",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "Aline Soares da Silva",
   "license": "ISC",
   "dependencies": {
-    "socket.io": "^3.0.5"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
+    "peer": "^0.6.1"
   }
 }
