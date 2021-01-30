@@ -59,14 +59,31 @@ $ cd server
 $ npm install
 ````
 
-4. Abrir no navegador que preferir:
+4. Ir para a pasta peer-server:
 
- http://localhost:3000  
+````
+$ cd peer-seever
+````
+5. Instalar as depencias:
+`````
+$ npm install
+````
+6. Mover para a pasta public:
+````
+$ cd public
+`````
 
-OBS: A página sempre fará reload quando atualizado os arquivos.<br />
+7. Instalar as depencias:
+````
+$ npm install
+`````
+8. Abrir no navegador que preferir:
+
+http://localhost:8080
 
 ### Créditos
 
 - Layout da home foi baseada no codepen do [Nelson Adonis Hernandez
 ](https://codepen.io/nelsonher019/pen/eYZBqOm)
 - Layout da room foi adaptado a partir do repo
+- Projeto desenvolvido durante a semana de superior.
