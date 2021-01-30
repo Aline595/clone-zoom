@@ -65,9 +65,10 @@ $ npm install
 $ cd peer-seever
 ````
 5. Instalar as depencias:
-`````
+````
 $ npm install
 ````
+
 6. Mover para a pasta public:
 ````
 $ cd public
