@@ -41,7 +41,7 @@ https://zoom-clone-aline.herokuapp.com/pages/home/
 ### Pré-requisitos
   - É necessario possuir o Node.js instalado
   - É preciso ter um gerenciador de pacotes instalado ou NPM ou Yarn
-  - É preciso ter u editor de testo.  
+  - É preciso ter um editor de texto.  
 
   
 ### Passo a passo
@@ -56,7 +56,7 @@ $ cd server
 ````
 3. Instalar dependencias:
 ````
-$ npm install
+$ npm install or yarn 
 ````
 
 4. Ir para a pasta peer-server:
@@ -66,7 +66,7 @@ $ cd peer-seever
 ````
 5. Instalar as depencias:
 ````
-$ npm install
+$ npm install or yarn 
 ````
 
 6. Mover para a pasta public:
@@ -76,7 +76,7 @@ $ cd public
 
 7. Instalar as depencias:
 ````
-$ npm install
+$ npm install or yarn
 `````
 8. Abrir no navegador que preferir:
 
@@ -87,4 +87,4 @@ http://localhost:8080
 - Layout da home foi baseada no codepen do [Nelson Adonis Hernandez
 ](https://codepen.io/nelsonher019/pen/eYZBqOm)
 - Layout da room foi adaptado a partir do repo
-- Projeto desenvolvido durante a semana de superior.
+- Projeto desenvolvido durante a semana de JS superior.
